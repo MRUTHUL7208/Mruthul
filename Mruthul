@@ -1,0 +1,11 @@
+#include <stdio.h>
+/* to find sqroot of a number
+16.09.2022*/
+void main(){
+    double num, sqroot;
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+    sqroot = sqrt(num);
+    printf("The square root of %.2lf is: %.2lf", num, sqroot);
+    return 0;
+}
